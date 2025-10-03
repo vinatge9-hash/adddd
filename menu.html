@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cozy Cup - Menu</title>
+  <meta name="description" content="Explore The Cozy Cup menu featuring espresso drinks, pour-overs, teas, and fresh pastries." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+  <nav class="bg-[#F5DEB3] text-[#3B2A1F] shadow-md sticky top-0 z-50" aria-label="Main navigation">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="text-2xl font-bold font-[Montserrat]">The Cozy Cup</a>
+        <div class="hidden md:flex space-x-4">
+          <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#D2B48C] hover:text-[#3B2A1F] transition">Home</a>
+          <a href="about.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#D2B48C] hover:text-[#3B2A1F] transition">About</a>
+          <a href="menu.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#D2B48C] hover:text-[#3B2A1F] transition">Menu</a>
+          <a href="contact.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#D2B48C] hover:text-[#3B2A1F] transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="min-h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1678341611545-6a974797b9b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxjb3p5JTIwY29mZmVlJTIwc2hvcCUyMGludGVyaW9yJTIwd2l0aCUyMHdhcm0lMjBsaWdodGluZyUyMGFuZCUyMGN1c3RvbWVyc3xlbnwwfDB8fHwxNzU5NDkxMDAxfDA&ixlib=rb-4.1.0&q=80&w=1080');">
+    <div class="bg-black/40 h-full flex items-center justify-center">
+      <div class="text-center text-white px-4 py-24">
+        <h1 class="text-4xl md:text-6xl font-bold font-[Montserrat] mb-4">Menu</h1>
+        <p class="text-lg md:text-2xl max-w-2xl mx-auto">From bold espressos to seasonal specialties, plus fresh pastries baked daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section aria-labelledby="beverages" class="mb-8">
+      <h2 id="beverages" class="text-2xl font-bold font-[Montserrat] mb-4">Beverages</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-4 border rounded-lg flex gap-4 items-start">
+          <div class="w-12 h-12 rounded-full bg-[#D2B48C] flex items-center justify-center" aria-label="Espresso icon">☕</div>
+          <div>
+            <h3 class="font-semibold">Espresso</h3>
+            <p class="text-sm text-gray-700">Rich, concentrated coffee shot served as a base for most drinks. 2 oz.</p>
+            <span class="text-sm font-semibold">$2.50</span>
+          </div>
+        </div>
+        <div class="p-4 border rounded-lg flex gap-4 items-start">
+          <div class="w-12 h-12 rounded-full bg-[#D2B48C] flex items-center justify-center" aria-label="Latte icon">☕</div>
+          <div>
+            <h3 class="font-semibold">Cappuccino</h3>
+            <p class="text-sm text-gray-700">Balanced with steamed milk and airy foam. 6 oz.</p>
+            <span class="text-sm font-semibold">$3.75</span>
+          </div>
+        </div>
+        <div class="p-4 border rounded-lg flex gap-4 items-start">
+          <div class="w-12 h-12 rounded-full bg-[#D2B48C] flex items-center justify-center" aria-label="Pour-over icon">☕</div>
+          <div>
+            <h3 class="font-semibold">Pour-Over</h3>
+            <p class="text-sm text-gray-700">Pour-over drip with single-origin beans and bloom pour. 12 oz.</p>
+            <span class="text-sm font-semibold">$4.25</span>
+          </div>
+        </div>
+        <div class="p-4 border rounded-lg flex gap-4 items-start">
+          <div class="w-12 h-12 rounded-full bg-[#D2B48C] flex items-center justify-center" aria-label="Tea icon">🍵</div>
+          <div>
+            <h3 class="font-semibold">Tea Selection</h3>
+            <p class="text-sm text-gray-700">Assorted herbal and black teas, hot or iced.</p>
+            <span class="text-sm font-semibold">$2.95</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section aria-labelledby="pastries">
+      <h2 id="pastries" class="text-2xl font-bold font-[Montserrat] mb-4">Pastries</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-4 border rounded-lg text-center">
+          <img src="https://images.unsplash.com/photo-1587912001191-0cd4f14fd89e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw0fHxjcm9pc3NhbnR8ZW58MHwwfHx8MTc1OTQ5MTAwMXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Butter croissant on a plate" class="mx-auto w-32 h-32 object-cover mb-2" />
+          <div class="font-semibold">Butter Croissant</div>
+          <div class="text-sm text-gray-700">Flaky, light, and perfect with coffee.</div>
+          <div class="mt-2 font-semibold">$3.25</div>
+        </div>
+        <div class="p-4 border rounded-lg text-center">
+          <img src="https://images.unsplash.com/photo-1757124034100-870a3badc2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxMHx8YWxtb25kJTIwcGFzdHJ5fGVufDB8MHx8fDE3NTk0OTEwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Almond croissant on a plate" class="mx-auto w-32 h-32 object-cover mb-2" />
+          <div class="font-semibold">Almond Tart</div>
+          <div class="text-sm text-gray-700">Toasted almonds, creamy filling.</div>
+          <div class="mt-2 font-semibold">$3.75</div>
+        </div>
+        <div class="p-4 border rounded-lg text-center">
+          <img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxibHVlYmVycnklMjBtdWZmaW58ZW58MHwwfHx8MTc1OTQ5MTAwNHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Blueberry muffin on a plate" class="mx-auto w-32 h-32 object-cover mb-2" />
+          <div class="font-semibold">Blueberry Muffin</div>
+          <div class="text-sm text-gray-700">Bright, fruity, and fluffy.</div>
+          <div class="mt-2 font-semibold">$3.50</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#3B2A1F] text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="text-xl font-bold mb-2 font-[Montserrat]">The Cozy Cup</h4>
+        <p class="text-sm text-gray-200">Coffee, community, and comfort in every cup.</p>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-2">Hours</h5>
+        <p class="text-sm">Mon–Sun: 7:00am–7:00pm</p>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-2">Location</h5>
+        <p class="text-sm">801 Roast Street, Craft District</p>
+      </div>
+      <div>
+        <h5 class="font-semibold mb-2">Links</h5>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="about.html" class="hover:underline">About</a></li>
+          <li><a href="menu.html" class="hover:underline">Menu</a></li>
+          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
